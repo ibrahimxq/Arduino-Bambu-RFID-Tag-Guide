@@ -15,7 +15,7 @@ Here is where you have the way to derive and read the data of the tags.
 A way to derive the keys from the UID of an RFID tag was discovered, which unlocked the ability to scan and scrape RFID tag data without sniffing, as well as with other devices like the Flipper Zero. A script is included in the repository to derive the keys from the UID of a tag. This script is from the [Bambu-Research-Group / RFID-Tag-Guide](https://github.com/Bambu-Research-Group/RFID-Tag-Guide)
 
 
-````
+````python
 # -*- coding: utf-8 -*-
 
 # Python script to generate keys for Bambu Lab RFID tags
