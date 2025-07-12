@@ -1,4 +1,4 @@
-Bambu Lab RFID Tag Guide With Arduino
+#Bambu Lab RFID Tag Guide With Arduino
 This guide provides a basic overview of how to decrypt and read your tags using an Arduino RC522 sensor.
 
 View Collection of Tags
