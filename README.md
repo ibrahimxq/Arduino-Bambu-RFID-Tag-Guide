@@ -45,10 +45,12 @@ if __name__ == '__main__':
     print("\n".join(output))
 ````
 
+Link to script: [Key Derivation.py](deriveKey.py)
 To use this code, open up a terminal and type this command in the same directory as the Python script: `python3 deriveKeys.py [UID] > ./keys.dic`
 
 For example: `python3 deriveKeys.py 7AD43F1C > ./keys.dic`
 
 
 
-Now to use it, just use the Bambu-RFID-Write.ino file to write the default keys to the RFID Tag.
+Now to use it, just use the [Bambu-RFID-Write.ino](Bambu-RFID-Write.ino) file to write the default keys to the RFID Tag.
+In the file you can see where you need change the key to authenticate with the card, to change the keys you have to write them to each sector trailer
