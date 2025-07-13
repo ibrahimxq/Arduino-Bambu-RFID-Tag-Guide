@@ -58,7 +58,8 @@ Link to script: [Key Derivation.py](deriveKeys.py)
 
 To use this code, open up a terminal and type this command in the same directory as the Python script: `python3 deriveKeys.py [UID] > ./keys.dic`
 
-For example: `python3 deriveKeys.py 7AD43F1C > ./keys.dic`
+For example: `python3 deriveKeys.py 7AD43F1C > ./keys.dic`.
+It will save the keys to a .dic file, which you can open with a text editor and see the keys.
 
 
 
